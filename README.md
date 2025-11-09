@@ -1,6 +1,6 @@
 # Benedict's Project Portfolio
 
-> Applying structured thinking and technology to solve real-world problems—skills that transfer directly to business environments.
+> The following personal projects demonstrate the application of structured thinking and technology to solve real-world problems—skills that transfer directly to creating tangible value in business environments.
 
 ---
 
