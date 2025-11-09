@@ -6,7 +6,7 @@
 
 ## Skills Demonstrated
 
-**Strategic Thinking** · **Business Process Design** · **Analytical Problem-Solving** · **Data-Driven Decision Making** · **User-Centric Design** · **Workflow Automation** · **Efficiency Optimisation** · **Technology Adoption** · **Financial Analysis** · **Resource Allocation** · **Continuous Improvement**
+**Strategic Thinking** · **Analytical Problem-Solving** · **Data-Driven Decision Making** · **User-Centric Design** · **Workflow Automation** · **Efficiency Optimisation** · **Technology Adoption** · **Financial Analysis** · **Resource Allocation** · **Continuous Improvement**
 
 ---
 
@@ -26,7 +26,7 @@
 
 **Approach:** Adopted a structured categorisation system (General Expenses, Recurring Expenses, Capital). Critically evaluated database design and user experience to ensure intuitive workflows. Integrated AI text parsing to eliminate manual data entry. Built analytics dashboard for spending insights, with future opportunities for AI-driven behavioural analysis.
 
-**Strategic Impact:** Improved cost efficiency through better spending visibility; enhanced time efficiency by automating data entry, analytics generation, and inventory forecasting.
+**Strategic Impact:** Improved cost efficiency through better spending visibility; enhanced time efficiency by automating and streamlining data entry, analytics generation, and inventory forecasting.
 
 **Tech:** TypeScript, React, Python, FastAPI, SQLite
 
@@ -36,11 +36,11 @@
 
 <img width="1920" height="1080" alt="Stock Screener Dashboard" src="https://github.com/user-attachments/assets/3442eee0-b2a9-4529-96bf-eef893b02b6e" />
 
-**Problem:** Managing stock picks and portfolio requires visiting multiple sites and manually crunching numbers—a time-intensive process unsuitable for busy schedules.
+**Problem:** Managing stock picks and portfolio requires visiting multiple sites and manually crunching numbers—a time-intensive process unsuitable for busy academic schedules.
 
-**Approach:** Leveraged Python's speed and flexibility to automate data collection, cleansing, and export to Excel. Designed structured workflows to eliminate repetitive manual analysis.
+**Approach:** Leveraged Python's speed and flexibility to automate data collection, cleansing, and export to Excel. Designed workflows to eliminate repetitive manual analysis.
 
-**Strategic Impact:** Significant time efficiency gains through automation; enhanced decision-making capability with consolidated, clean data.
+**Strategic Impact:** Significant time efficiency gains through automation; enhanced structured decision-making capability through defined criteras.
 
 **Tech:** Python
 
