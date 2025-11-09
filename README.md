@@ -47,7 +47,7 @@
 
 ### Exam Study Tracker
 
-![Uploading Screenshot 2025-11-09 133942.png…]()
+<img width="1920" height="1080" alt="Screenshot 2025-11-09 133942" src="https://github.com/user-attachments/assets/81662d23-d60c-44b3-884e-491e7004f2e5" />
 
 
 **Problem:** Traditional note-taking and to-do tools lack the ability to intuitively plan workload relative to exam dates, and involves tedious data entry (whether be it by inputting tasks or rescheduling).
