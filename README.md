@@ -13,14 +13,8 @@
 ## Projects
 
 ### 1. Personal Budgeting & Forecasting
-
-<img width="1920" height="1080" alt="Screenshot 2025-11-09 151251" src="https://github.com/user-attachments/assets/3e7ba46f-744f-476f-88bd-e8d77f524a8a" />
-
-<img width="1920" height="1080" alt="Screenshot 2025-11-09 151303" src="https://github.com/user-attachments/assets/46b2a3c2-8930-410f-90e0-e75d357a90b7" />
-
-<img width="1880" height="474" alt="Screenshot 2025-11-09 151346" src="https://github.com/user-attachments/assets/ca8a9a77-2ad0-4795-998e-22cdfa51b5e1" />
-
-<img width="1920" height="1080" alt="Screenshot 2025-11-09 151443" src="https://github.com/user-attachments/assets/83276331-3a7d-4636-9b15-1f48d8d31157" />
+![Screenshot_25-11-2025_23545_localhost](https://github.com/user-attachments/assets/520e24fa-e891-4c74-b2f1-692a3ffe8743)
+![Untitled video - Made with Clipchamp (2)](https://github.com/user-attachments/assets/5195353f-b6eb-4ab6-9445-6dca1b434667)
 
 **Problem**
 
