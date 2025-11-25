@@ -13,8 +13,18 @@
 ## Projects
 
 ### 1. Personal Budgeting & Forecasting
+
+
+
 ![Screenshot_25-11-2025_23545_localhost](https://github.com/user-attachments/assets/520e24fa-e891-4c74-b2f1-692a3ffe8743)
-![Untitled video - Made with Clipchamp (2)](https://github.com/user-attachments/assets/5195353f-b6eb-4ab6-9445-6dca1b434667)
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5195353f-b6eb-4ab6-9445-6dca1b434667" alt="Untitled video - Made with Clipchamp (2)" width="700"/>
+  <br/>
+  <sub><b>AI feature that transforms raw text into structured data, enabling automated parsing of receipts and shopping carts.</b></sub>
+</div>
+
 
 **Problem**
 
