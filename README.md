@@ -21,11 +21,13 @@ I built a system designed for seamless tracking and better decision-making. It u
 
 **Interface with mock data:**
 
-![](https://github.com/user-attachments/assets/520e24fa-e891-4c74-b2f1-692a3ffe8743)
+https://github.com/user-attachments/assets/520e24fa-e891-4c74-b2f1-692a3ffe8743
 
 **Video demonstrating AI parsing:**
 
-![](https://github.com/user-attachments/assets/faed03e6-35c8-4f93-94bc-ce062dfe02b5)
+
+https://github.com/user-attachments/assets/8282f67f-a788-4c1b-b991-53bec60ec45e
+
 
 #### Problem
 
