@@ -1,6 +1,6 @@
 # Benedict's Project Portfolio
 
-> While the use cases are personal, these projects demonstrate skills such as analytical thinking and a structured approach in developing solutions that solve everyday challenges.
+> While use cases are personal, these projects demonstrate skills such as analytical thinking and structured problem-solving in developing solutions that solve everyday challenges.
 ---
 
 ## Skills Demonstrated
