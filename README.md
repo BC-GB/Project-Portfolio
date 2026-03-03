@@ -37,7 +37,7 @@ Crucially, because this approach cleanly centralised my spending data, the tool 
 ### 2. Automated Stock Idea Screener
 
 **Screenshot**  
-<img width="1920" height="1080" alt="Stock Screener Dashboard" src="https://github.com/user-attachments/assets/3442eee0-b2a9-4529-96bf-eef893b02b6e" />
+![Interface with mock data](https://github.com/user-attachments/assets/3442eee0-b2a9-4529-96bf-eef893b02b6e)  
 
 #### Context & Importance
 Evaluating stock ideas effectively requires pulling together disparate financial data to compare metrics side-by-side, a process that forms the foundation of any sound investment hypothesis.
@@ -60,7 +60,7 @@ Removed hours of searching up financial sites and manual data entry per session,
 ### 3. Exam Revision & Progress Tracker
 
 **Screenshot**  
-<img width="1920" height="1080" alt="Exam Study Tracker" src="https://github.com/user-attachments/assets/82d47faa-813b-495d-b9ba-b8a921851006" />
+![Interface with mock data](https://github.com/user-attachments/assets/82d47faa-813b-495d-b9ba-b8a921851006)  
 
 #### Context & Importance
 Preparing for several exams simultaneously requires translating a massive volume of unstructured course materials such as practice exams, tutorial questions, and quizzes into a concrete, actionable daily schedule.
