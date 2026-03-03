@@ -81,7 +81,7 @@ By completely removing the administrative overhead of building and maintaining a
 
 ---
 
-### 4. File AI File Sorter
+### 4. AI File Sorter
 
 #### Context & Importance
 Folders, especially downloads directories, are frequently full of files with unhelpful names. Sorting and renaming these files into appropriate folders is vital for cleaning up, ensuring proper record keeping, and maintaining accessibility.
