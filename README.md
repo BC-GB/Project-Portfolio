@@ -6,6 +6,10 @@
 
 ### 1. Personal Cash-Flow Forecasting System
 
+**Screenshots & demo**  
+![Interface with mock data](https://github.com/user-attachments/assets/8ee11582-0daa-42fc-8fad-d681cd270377)  
+[Video demonstrating transaction categorisation](https://github.com/user-attachments/assets/e3e8c9d2-46d3-40eb-9c73-fe9516de6858)
+
 #### Context & Importance
 Effective budgeting and spending controls are fundamental to financial responsibility. As a university student with limited income streams, I required accurate, granular visibility into my cash flow to maintain a stable financial runway across my multi-year degree.
 
@@ -26,15 +30,14 @@ By separating my expenses into these three distinct streams, I generated a relia
 
 Crucially, because this approach cleanly centralised my spending data, the tool naturally evolved into an extensible platform. With the underlying data already consolidated, it became simple to build and integrate adjacent features such as inventory tracking, scenario simulations, and automated shopping lists.
 
-**Screenshots & demo**  
-![Interface with mock data](https://github.com/user-attachments/assets/8ee11582-0daa-42fc-8fad-d681cd270377)  
-[Video demonstrating transaction categorisation](https://github.com/user-attachments/assets/e3e8c9d2-46d3-40eb-9c73-fe9516de6858)
-
 **Built with:** TypeScript, React, Python/FastAPI, SQLite
 
 ---
 
 ### 2. Automated Stock Idea Screener
+
+**Screenshot**  
+<img width="1920" height="1080" alt="Stock Screener Dashboard" src="https://github.com/user-attachments/assets/3442eee0-b2a9-4529-96bf-eef893b02b6e" />
 
 #### Context & Importance
 Evaluating stock ideas effectively requires pulling together disparate financial data to compare metrics side-by-side, a process that forms the foundation of any sound investment hypothesis.
@@ -50,14 +53,14 @@ I deliberately kept the spreadsheet as the transparent "engine," making it easy 
 #### Outcomes & Impact
 Removed hours of searching up financial sites and manual data entry per session, allowing me to focus entirely on analysis and comparison rather than data gathering. 
 
-**Screenshot**  
-<img width="1920" height="1080" alt="Stock Screener Dashboard" src="https://github.com/user-attachments/assets/3442eee0-b2a9-4529-96bf-eef893b02b6e" />
-
 **Built with:** Python, xlwings (Excel automation)
 
 ---
 
 ### 3. Exam Revision & Progress Tracker
+
+**Screenshot**  
+<img width="1920" height="1080" alt="Exam Study Tracker" src="https://github.com/user-attachments/assets/82d47faa-813b-495d-b9ba-b8a921851006" />
 
 #### Context & Importance
 Preparing for several exams simultaneously requires translating a massive volume of unstructured course materials such as practice exams, tutorial questions, and quizzes into a concrete, actionable daily schedule.
@@ -73,9 +76,6 @@ First, I utilised structured data by storing the schedule as a plain YAML file. 
 Second, I built an incredibly seamless interface to ensure updating those plans was quick and easy. Featuring drag-and-drop rescheduling and real-time progress tracking, it allowed me to effortlessly readjust the schedule on the fly to reflect the actual pace of my revision.
 #### Outcomes & Impact
 By completely removing the administrative overhead of building and maintaining a schedule, planning and replanning dropped from an hours-long manual chore to a process of minutes. This kept me perfectly synchronised with shifting priorities and allowed me to retain total focus on actual studying, rather than managing the plan itself.
-
-**Screenshot**  
-<img width="1920" height="1080" alt="Exam Study Tracker" src="https://github.com/user-attachments/assets/82d47faa-813b-495d-b9ba-b8a921851006" />
 
 **Built with:** JavaScript, Python, HTML/CSS
 
