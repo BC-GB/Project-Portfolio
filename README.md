@@ -26,7 +26,7 @@ By splitting expenses this way, I could apply the right forecasting logic to eac
 To reduce manual data entry, I integrated AI into the interface to parse unstructured raw text into structured data (such as name, price, and type)
 
 #### Outcomes & Impact
-By separating my expenses into these three distinct streams, I generated a reliable forecasting model that provided comprehensive visibility into my financial health. It allowed me to accurately project my runway, anticipate future cashflow needs, actively manage liquidity, and identify underlying spending patterns.
+By decomposing my expenses, I generated a reliable forecasting model that provided comprehensive visibility into my financial health. It allowed me to accurately project my runway, anticipate future cashflow needs, actively manage liquidity, and identify underlying spending patterns.
 
 Crucially, because this approach cleanly centralised my spending data, the tool naturally evolved into an extensible platform. With the underlying data already consolidated, it became simple to build and integrate adjacent features such as inventory tracking, scenario simulations, and automated shopping lists.
 
@@ -66,12 +66,12 @@ Removed hours of searching up financial sites and manual data entry per session,
 Preparing for several exams simultaneously requires translating a massive volume of unstructured course materials such as practice exams, tutorial questions, and quizzes into a concrete, actionable daily schedule.
 
 #### The Gap
-Standard productivity tools introduce immense friction at two critical stages. First, the manual data entry required to generate a comprehensive study plan from raw course materials is highly time-consuming. Second, as actual progress inevitably deviates from the initial ideal plan, the administrative burden of manually shifting dozens of tasks causes standard systems to become unwieldy and quickly abandoned.
+Standard productivity tools introduce immense friction at two critical stages. First, the manual work required to generate a comprehensive study plan from raw course materials is highly time-consuming. Second, as actual progress inevitably deviates from the initial ideal plan, the administrative burden of manually shifting dozens of tasks causes standard systems to become unwieldy and quickly abandoned.
 
 #### Approach
 I focused the design on two core elements to eliminate the friction of planning and constant replanning:
 
-First, I utilised structured data by storing the schedule as a plain YAML file. This format enabled me to leverage AI directly. By simply feeding in raw text the list of practice materials, alongside exam dates and priorities, I could instantly generate a comprehensive YAML study plan. This made initial planning exceptionally fast and avoided the need to build complex scheduling logic myself.
+First, I set up a template that let the AI chat interface turn raw study information into a ready-made plan. I could then paste the output directly into the app, making plan creation fast and repeatable.
 
 Second, I built an incredibly seamless interface to ensure updating those plans was quick and easy. Featuring drag-and-drop rescheduling and real-time progress tracking, it allowed me to effortlessly readjust the schedule on the fly to reflect the actual pace of my revision.
 #### Outcomes & Impact
