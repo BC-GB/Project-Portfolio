@@ -7,7 +7,9 @@
 ### 1. Personal Cash-Flow Forecasting System
 
 **Screenshots & demo**  
-![Interface with mock data](https://github.com/user-attachments/assets/8ee11582-0daa-42fc-8fad-d681cd270377)  
+
+<img width="1794" height="3066" alt="Interface with Mock Data" src="https://github.com/user-attachments/assets/8d0a6b20-245d-46d0-b56f-ca9bdacd7a49" />
+
 [Video demonstrating transaction categorisation](https://github.com/user-attachments/assets/e3e8c9d2-46d3-40eb-9c73-fe9516de6858)
 
 #### Context & Importance
