@@ -1,110 +1,87 @@
-# Benedict's Project Portfolio
+# Project Portfolio
 
----
+## Investment Research Tool
 
-## Projects
+*Developing an investment-research tool for market analysis, security screening and portfolio management.*
 
-### 1. Personal Cash-Flow Forecasting System
+<!-- Add the polished Investment Research Tool screenshot here. -->
 
-**Screenshots & demo**  
+<!-- Context -->
+Conducting investment research means regularly reviewing and analysing a broad range of market indicators.
+
+<!-- Complication -->
+In practice, each update required sourcing data from numerous websites, cleaning it, rerunning calculations and rebuilding visualisations. As someone busy with academic commitments, this tedious, time-consuming workflow limited how often I could conduct the analysis, the breadth of indicators I could cover and the time available to interpret the evidence.
+
+<!-- Approach -->
+To reduce that burden, I automated the recurring data work: APIs retrieve the data, while the tool prepares it, calculates the indicators and generates the visualisations. Raw data and calculated outputs are stored in organised, readable files, allowing external AI with folder access to monitor for specified patterns or scan more broadly for notable changes.
+
+<!-- Operational outcome -->
+As a result, the data, indicators and visualisations are refreshed automatically, while selective notifications flag potentially notable changes and patterns.
+
+<!-- Strategic implication -->
+This shifts my attention from maintaining and continually monitoring the evidence base to deciding what notable changes mean and where deeper investigation is warranted.
+
+## Unified Dashboard
+
+*Built an integrated data system that brings fragmented information from multiple sources into a common view for monitoring priorities and coordinating workflows.*
+
+<!-- Add the polished Unified Dashboard screenshot here. -->
+
+<!-- Context -->
+Throughout the day, we often rely on separate websites and apps for different needs: a calendar for commitments, a task manager for priorities, news sites for market updates and a weather app for forecasts.
+
+<!-- Complication -->
+In practice, keeping up with them meant opening each one separately just to see what was current. Updating a task or calendar commitment required another visit to its original app.
+
+<!-- Approach -->
+To reduce that switching, I connected the services I use to a dashboard that retrieves their relevant information into one interface and passes task and calendar changes back to their original apps.
+
+<!-- Operational outcome -->
+The result is a dashboard that displays my priorities, schedule, news and weather together and lets me update tasks and calendar entries from the same interface.
+
+<!-- Strategic implication -->
+This reduces the attention required to stay up to date across different websites and apps, leaving more attention for the priorities and commitments themselves.
+
+## Personal Cash-Flow Forecasting System
+
+*Designed a personal-finance system for cash-flow forecasting and spending planning, combining custom modelling with AI-assisted data capture.*
 
 <img width="1794" height="3066" alt="Interface with Mock Data" src="https://github.com/user-attachments/assets/8d0a6b20-245d-46d0-b56f-ca9bdacd7a49" />
 
 [Video demonstrating transaction categorisation](https://github.com/user-attachments/assets/e3e8c9d2-46d3-40eb-9c73-fe9516de6858)
 
-#### Context & Importance
-Effective budgeting and spending controls are fundamental to financial responsibility. As a university student with limited income streams, I required accurate, granular visibility into my cash flow to maintain a stable financial runway across my multi-year degree.
+<!-- Context -->
+Managing personal finances well requires understanding both where money is going and what can be afforded over time. A current bank balance provides neither because it does not reveal spending patterns or account for future income and commitments. With limited income over a multi-year degree, that longer-term visibility was essential for deciding how much could be spent or invested while retaining enough cash for future commitments.
 
-#### The Gap
-Traditional forecasting relies on simple monthly averages, which are inherently unreliable given that purchases are often irregular or regular but over larger timeframes.
+<!-- Complication -->
+The two practical alternatives for forecasting spend each had a limitation. Simple monthly averages are easy to calculate but produce a misleading forecast: they spread recurring expenses evenly rather than reflecting when they fall due and treat one-off purchases as part of ongoing spending. A detailed spreadsheet can account for those differences, but doing so requires every purchase to be entered and categorised manually, making the spreadsheet tedious to keep updated.
 
-While spreadsheets can bridge this forecasting gap and track hidden expenses like annual subscriptions, they are far too tedious to maintain manually.
+<!-- Approach -->
+The two limitations are addressed through a forecasting model and AI-assisted data entry and classification. The model classifies expenses into three types based on their expected behaviour over time: “Fixed OPEX” covers recurring expenses, such as subscriptions and supplements, whose future timing and cost can be estimated; “Variable OPEX” covers everyday spending, such as meals and coffee, whose overall level tends to remain relatively stable; and “CAPEX” covers one-off purchases, such as a laptop or television, that are unlikely to recur within the forecast period. To maintain the expense records, AI parses expense details pasted as plain text into structured data and assigns each expense to the appropriate type. The dashboard then uses the resulting spending data and forecasts to produce expenditure analysis and cash-flow visualisations.
 
-#### Approach
-I designed a framework where spending was decomposed into three mutually exclusive types: **Recurring** (fixed, scheduled bills), **Capital** (one-off, large purchases), or **General run-rate** (variable, day-to-day spending). 
+<!-- Operational outcome -->
+The resulting dashboard shows where money is going and visualises projected cash position and runway over time, including how potential purchases would alter that outlook. It provides this detailed view without tedious data entry.
 
-By splitting expenses this way, I could apply the right forecasting logic to each. For example, isolating both large capital purchases and scheduled recurring bills prevents them from distorting the run-rate average.
+<!-- Strategic implication -->
+Together, the expenditure analysis and cash-flow forecast enable me to optimise how limited funds are allocated across current spending, potential purchases and investments while retaining the liquidity required for future commitments.
 
-To reduce manual data entry, I integrated AI into the interface to parse unstructured raw text into structured data (such as name, price, and type)
+## Exam Revision Planning Tool
 
-#### Outcomes & Impact
-By decomposing my expenses, I generated a reliable forecasting model that provided comprehensive visibility into my financial health. It allowed me to accurately project my runway, anticipate future cashflow needs, actively manage liquidity, and identify underlying spending patterns.
+*Built an intuitive, seamless interface for tracking progress and adapting revision plans, with support for optimised revision schedules generated by external AI tools.*
 
-Crucially, because this approach cleanly centralised my spending data, the tool naturally evolved into an extensible platform. With the underlying data already consolidated, it became simple to build and integrate adjacent features such as inventory tracking, scenario simulations, and automated shopping lists.
+<!-- Add the Exam Revision Planning Tool screenshot here. -->
 
-**Built with:** TypeScript, React, Python/FastAPI, SQLite
+<!-- Context -->
+Preparing for several exams means allocating limited study time to across competing subjects. A useful schedule must apply strategies such as spaced repetition and progression from smaller exercises towards full practice exams, while accounting for available study time and the dates and times of each exam.
 
----
+<!-- Complication -->
+An external AI tool can generate that schedule, but putting it into a general task tool still leaves three administrative tasks: entering the plan item by item, checking individual tasks to understand overall progress and moving tasks one by one when revision runs ahead of or behind schedule.
 
-### 2. Automated Stock Idea Screener
+<!-- Approach -->
+I designed the tool around those three stages. A YAML template lets an external AI tool return the complete schedule in a format that can be loaded at once, with no AI built into the tool. A thoughtful, minimal-click interface provides direct completion controls and visible progress. Selected tasks can be moved together, while unfinished work can be carried forward in one action.
 
-**Screenshot**  
-![Interface with mock data](https://github.com/user-attachments/assets/3442eee0-b2a9-4529-96bf-eef893b02b6e)  
+<!-- Operational outcome -->
+The result is a seamless process for building the initial schedule with external AI, loading it into the tool, tracking progress and adapting the plan as revision unfolds.
 
-#### Context & Importance
-Evaluating stock ideas effectively requires pulling together disparate financial data to compare metrics side-by-side, a process that forms the foundation of any sound investment hypothesis.
-
-#### The Gap
-The manual grind of jumping between websites and copying data into Excel each session was heavily time-consuming and limited the volume of ideas I could realistically track and compare.
-
-#### Approach
-I built a lightweight Python tool that automated API data retrieval directly into an Excel calculation sheet. This sheet handled formulas, historical lookups, and custom metrics, feeding clean outputs directly into a dashboard for side-by-side comparison.
-
-I deliberately kept the spreadsheet as the transparent "engine," making it easy to audit and extend the underlying logic, trading off broad scalability for a highly tailored, focused watchlist experience.
-
-#### Outcomes & Impact
-Removed hours of searching up financial sites and manual data entry per session, allowing me to focus entirely on analysis and comparison rather than data gathering. 
-
-**Built with:** Python, xlwings (Excel automation)
-
----
-
-### 3. Exam Revision & Progress Tracker
-
-**Screenshot**  
-![Interface with mock data](https://github.com/user-attachments/assets/82d47faa-813b-495d-b9ba-b8a921851006)  
-
-#### Context & Importance
-Preparing for several exams simultaneously requires translating a massive volume of unstructured course materials such as practice exams, tutorial questions, and quizzes into a concrete, actionable daily schedule.
-
-#### The Gap
-Standard productivity tools introduce immense friction at two critical stages. First, the manual work required to generate a comprehensive study plan from raw course materials is highly time-consuming. Second, as actual progress inevitably deviates from the initial ideal plan, the administrative burden of manually shifting dozens of tasks causes standard systems to become unwieldy and quickly abandoned.
-
-#### Approach
-I focused the design on two core elements to eliminate the friction of planning and constant replanning:
-
-First, I set up a template that let the AI chat interface turn raw study information into a ready-made plan. I could then paste the output directly into the app, making plan creation fast and repeatable.
-
-Second, I built an incredibly seamless interface to ensure updating those plans was quick and easy. Featuring drag-and-drop rescheduling and real-time progress tracking, it allowed me to effortlessly readjust the schedule on the fly to reflect the actual pace of my revision.
-#### Outcomes & Impact
-By completely removing the administrative overhead of building and maintaining a schedule, planning and replanning dropped from an hours-long manual chore to a process of minutes. This kept me perfectly synchronised with shifting priorities and allowed me to retain total focus on actual studying, rather than managing the plan itself.
-
-**Built with:** JavaScript, Python, HTML/CSS
-
----
-
-### 4. AI File Sorter
-
-#### Context & Importance
-Folders, especially downloads directories, are frequently full of files with unhelpful names. Sorting and renaming these files into appropriate folders is vital for cleaning up, ensuring proper record keeping, and maintaining accessibility.
-
-#### The Gap
-Sorting and renaming files manually are incredibly tedious processes. Because of this high friction, files naturally accumulate in a disorganised state.
-
-#### Approach
-While previously a near impossible task to automate reliably, generative AI now makes this achievable. I built a tool where AI reads the actual contents of each file to intelligently rename and sort them into appropriate folders.
-
-The system features a feedback loop that updates its assumptions about folder categories if users manually adjust a file location to correct it. Furthermore, the tool is built fundamentally for security and privacy, featuring the use of local LLMs so that file contents are completely private and never leave the device.
-
-#### Outcomes & Impact
-The tool automates the tedious processes of file management. It consistently maintains organised folders and clear file names, ensuring strong accessibility and proper keeping while guaranteeing user privacy through local processing.
-
-**Built with:** Python, Ollama
-
----
-
-## Contact
-
-**GitHub:** [@BC-GB](https://github.com/BC-GB)
-
-All repositories are private but available for review upon request.
+<!-- Strategic implication -->
+Together, these features make it practical to develop and implement a revision-optimised plan throughout exam preparation without diverting limited study time into managing it.
