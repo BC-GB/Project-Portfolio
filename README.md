@@ -22,7 +22,7 @@ To reduce that burden, I automated the recurring data work: APIs retrieve the da
 
 ### What it enables
 
-As a result, the data, indicators and visualisations are refreshed automatically, while AI-assisted analysis flag potentially notable changes and patterns.
+As a result, the data, indicators and visualisations are refreshed automatically, while AI-assisted analysis flags potentially notable changes and patterns.
 
 This shifts my attention from maintaining and continually monitoring the evidence base to deciding what notable changes mean and where deeper investigation is warranted.
 
