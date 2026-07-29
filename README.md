@@ -30,7 +30,7 @@ This shifts my attention from maintaining and continually monitoring the evidenc
 <img width="2560" height="1600" alt="Dashboard" src="https://github.com/user-attachments/assets/caed2e6b-5293-4aa4-8cbc-494288adb7bf" />
 
 <!-- Context -->
-Throughout the day, we often rely on separate websites and apps for different needs: a calendar for commitments, a task manager for priorities, news sites for market updates and a weather app for forecasts.
+Throughout the day, we often rely on separate websites and apps for different needs: a calendar for commitments, a task app for priorities, news sites for market updates and a weather app for forecasts.
 
 <!-- Complication -->
 In practice, keeping up with them meant opening each one separately just to see what was current. Updating a task or calendar commitment required another visit to its original app.
