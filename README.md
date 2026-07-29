@@ -3,10 +3,9 @@
 ## Investment Research Tool
 
 *Developing an investment-research tool for market analysis, security screening and portfolio management.*
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/634062ae-01d3-4c4a-baff-ee8c1eb67e19" />
 
 <!-- Add the polished Investment Research Tool screenshot here. -->
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/634062ae-01d3-4c4a-baff-ee8c1eb67e19" />
 
 <!-- Context -->
 Conducting investment research means regularly reviewing and analysing a broad range of market indicators.
