@@ -2,7 +2,7 @@
 
 ## Investment Research Tool
 
-*Ongoing development of an personal investment-research tool for market analysis, security screening and portfolio management.*
+*Ongoing development of a personal investment-research tool for market analysis, security screening and portfolio management.*
 
 <!-- Add the polished Investment Research Tool screenshot here. -->
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/634062ae-01d3-4c4a-baff-ee8c1eb67e19" />
