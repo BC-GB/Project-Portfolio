@@ -1,5 +1,5 @@
 # Project Portfolio
-I built these tools to manage different aspects of my daily life more effectively and with less friction. Each write-up pairs screenshots with a brief explanation of the problem, the reasoning behind the solution and what the tool enables.
+I built these tools to manage different aspects of my daily life with less friction and more effectiveness. Each write-up pairs screenshots with a brief explanation of the problem, the reasoning behind the solution and what the tool enables.
 
 ## Investment Research Tool
 
