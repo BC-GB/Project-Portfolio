@@ -92,7 +92,7 @@ Creating the schedule manually was time-consuming, especially across multiple su
 
 ### The approach
 
-To avoid entering each task individually, I designed the tool to load an entire schedule at once from a template that an AI chatbot can fill out. When the schedule needs to change, multiple tasks can be adjusted together with only a few intuitive clicks.
+To avoid entering each task individually, I designed the tool to load an entire schedule at once from a template that AI chatbots can fill out. When the schedule needs to change, multiple tasks can be adjusted together with only a few intuitive clicks.
 
 ### What it enables
 
