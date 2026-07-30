@@ -96,5 +96,5 @@ To avoid entering each task individually, I designed the tool to load an entire 
 
 ### What it enables
 
-The result is a seamless process for building the initial schedule with AI chatbots, loading it into the tool and adapting the plan as revision unfolds. Hence, shifting my time and attention from creating and managing the schedule towards the revision activities it prioritises.
+The result is a seamless process for building the initial schedule with AI chatbots, loading it into the tool and adapting the plan as revision unfolds. This shifts my time and attention from creating and managing the schedule towards the revision activities it prioritises.
 
