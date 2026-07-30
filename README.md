@@ -14,11 +14,11 @@ Conducting investment research means regularly reviewing and analysing a broad r
 
 ### The gap
 
-In practice, each update required sourcing data from numerous websites, cleaning it, rerunning calculations and rebuilding visualisations. As someone busy with academic commitments, this tedious, time-consuming workflow limited how often I could conduct the analysis, the breadth of indicators I could cover and the time available to interpret the evidence.
+In practice, preparing the necessary data each time required the repetitive process of sourcing data from numerous websites, cleaning it, rerunning calculations and rebuilding visualisations. As someone busy with academic commitments, the tedious and time-consuming workflow limited how often I could conduct the analysis, the breadth of indicators I could cover and the time available to interpret the evidence.
 
 ### The approach
 
-To reduce that burden, I automated the recurring data work: APIs retrieve the data, while the tool prepares it, calculates the indicators and generates the visualisations. Raw data and calculated outputs are stored in organised, readable files, allowing external AI with folder access to monitor for specified patterns or scan more broadly for notable changes.
+Identifying the process to be highly repeatable in nature, I automated the recurring data work: APIs retrieve the data, while the tool prepares it, calculates the indicators and generates the visualisations. Raw data and calculated outputs are stored in organised, readable files, allowing external AI with folder access to monitor for specified patterns or scan more broadly for notable changes.
 
 ### What it enables
 
@@ -35,21 +35,19 @@ This shifts my attention from maintaining and continually monitoring the evidenc
 
 ### The need
 
-Throughout the day, we often rely on separate websites and apps for different needs: a calendar for commitments, a task app for priorities, news sites for market updates and a weather app for forecasts.
+Throughout the day, we often rely on separate websites and apps for different needs: a calendar for commitments, a task app for priorities, news sites for updates and a weather app for forecasts.
 
 ### The gap
 
-In practice, keeping up with them meant opening each one separately just to see what was current. Updating a task or calendar commitment required another visit to its original app.
+In practice, staying up to date or making changes meant repeatedly switching between apps and tabs, which was tedious and distracting. Fragmentation also limited visibility by separating information that was useful together. For example, I had to compare appointments with weather forecasts across different apps to see which plans might be affected by rain.
 
 ### The approach
 
-To reduce that switching, I connected the services I use to a dashboard that retrieves their relevant information into one interface and passes task and calendar changes back to their original apps.
+That required a single place to view the relevant information at a glance and make routine updates. I met this through data integration: the dashboard retrieves relevant data from the services I use, displays it as widgets in one interface and passes task and calendar changes back to their original apps.
 
 ### What it enables
 
-The result is a dashboard that displays my priorities, schedule, news and weather together and lets me update tasks and calendar entries from the same interface.
-
-This reduces the attention required to stay up to date across different websites and apps, leaving more attention for the priorities and commitments themselves.
+The dashboard now serves as my starting point for reviewing the day and making routine changes. This reduces the attention spent navigating separate tools, leaving more for the priorities and commitments themselves.
 
 ## Personal Cash-Flow Forecasting System
 
@@ -86,18 +84,17 @@ Together, the expenditure analysis and cash-flow forecast enable me to optimise 
 
 ### The need
 
-Preparing for several exams means allocating limited study time to across competing subjects. A useful schedule must apply strategies such as spaced repetition and progression from smaller exercises towards full practice exams, while accounting for available study time and the dates and times of each exam.
+With limited time to prepare for four exams, I needed to make the most of each study session. A revision plan could help by incorporating strategies such as spaced repetition and progression from smaller exercises to full practice exams. However, generating and maintaining that plan also needed to be efficient so that the planning process did not take time away from revision itself.
 
 ### The gap
 
-An external AI tool can generate that schedule, but putting it into a general task tool still leaves three administrative tasks: entering the plan item by item, checking individual tasks to understand overall progress and moving tasks one by one when revision runs ahead of or behind schedule.
+Creating the schedule manually was time-consuming, especially across multiple subjects. An AI chatbot could generate it much faster, but using that schedule in a typical task app still meant entering each task individually and moving tasks one by one whenever revision ran ahead of or behind schedule.
 
 ### The approach
 
-A simple schedule template allows a complete plan generated by an external AI tool to be loaded at once, removing item-by-item entry. The interface shows the schedule, completed work and outstanding work together, making overall progress visible at a glance. The plan can then be adjusted with intuitive and minimal clicks whenever revision runs ahead of or behind schedule.
+To avoid entering each task individually, I designed the tool to load an entire schedule at once from a template that an AI chatbot can fill out. When the schedule needs to change, multiple tasks can be adjusted together with only a few intuitive clicks.
 
 ### What it enables
 
-The result is a seamless process for building the initial schedule with external AI, loading it into the tool, tracking progress and adapting the plan as revision unfolds.
+The result is a seamless process for building the initial schedule with AI chatbots, loading it into the tool and adapting the plan as revision unfolds. Hence, shifting my time and attention from creating and managing the schedule towards the revision activities it prioritises.
 
-Together, these features make it practical to develop and implement a revision-optimised plan throughout exam preparation without diverting limited study time into managing it.
