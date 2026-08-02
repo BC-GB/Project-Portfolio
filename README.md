@@ -6,7 +6,7 @@ I built these tools to manage different aspects of my daily life with less frict
 *Ongoing development of a personal investment-research tool for market analysis, security screening and portfolio management.*
 
 <!-- Add the polished Investment Research Tool screenshot here. -->
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/634062ae-01d3-4c4a-baff-ee8c1eb67e19" />
+<img width="3520" height="2200" alt="market-collapsed" src="https://github.com/user-attachments/assets/7ec9fb24-97a0-4c92-b2aa-91013e6ef19a" />
 
 ### The need
 
