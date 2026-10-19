@@ -88,11 +88,11 @@ With limited time to prepare for four exams, I needed to make the most of each s
 
 ### The gap
 
-Creating the schedule manually was time-consuming, especially across multiple subjects. An AI chatbot could generate it much faster, but using that schedule in a typical task app still meant entering each task individually and moving tasks one by one whenever revision ran ahead of or behind schedule.
+Creating the schedule manually was time-consuming, especially across multiple subjects. An AI chatbot could generate a schedule fast, but keeping the generated schedule in a typical task app still meant manual data entry work entering each task individually and moving tasks one by one whenever revision ran ahead of or behind schedule.
 
 ### The approach
 
-To avoid entering each task individually, I designed the tool to load an entire schedule at once from a template that AI chatbots can fill out. When the schedule needs to change, multiple tasks can be adjusted together with only a few intuitive clicks.
+To avoid entering each task individually, I designed the tool to include an MCP server for AI to add and edit revision plans. Additionally, small edits like marking practices as complete or shifting their dates could be adjusted with only a few intuitive clicks.
 
 ### What it enables
 
